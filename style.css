@@ -1,0 +1,117 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contanier
+{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+    background-image: url(./background.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.main_box 
+{
+    width: 60%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 20px;
+} 
+#title
+{
+    font-size: 2rem;
+    font-weight: 900;
+}
+.record_box 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}  
+.input
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}   
+#text_convert
+{
+    width: 80%;
+    height: auto;
+    outline: none;
+    border: none;
+    color:#ff0047;
+    padding: 20px;
+    font-size: 1.6rem;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    line-height: 30px;
+    border-radius: 20px;
+} 
+#mic_recorder
+{
+    font-size: 3rem;
+    font-weight: 900;
+	background-color: transparent;
+	color:  #ff0047;
+	padding: 5px 25px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    border-radius: 25px;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	background: #131419;
+	box-shadow: -2px -2px 6px rgba(255, 255, 255, 0.1),
+	2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+#mic_recorder:hover
+{
+    color: #ff0047;
+    box-shadow: inset -2px -2px 6px rgba(255, 255, 255, 0.1),
+                inset 2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+button:focus 
+{
+      outline: 0;
+  }
+   
+  
+   
+   
+  
+
+   
+  @media (max-width: 768px) {
+      .mycontainer {
+          width: 85vw;
+          max-width: 85vw;
+      }
+   
+      button {
+          margin-bottom: 10px;
+      }
+  }
